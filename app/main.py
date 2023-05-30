@@ -1,5 +1,5 @@
 import tkinter as tk
-
+from Class import Buttons
 def buttons(self,janela):
     self.janela=janela
     self.janela.title("itens")
@@ -9,6 +9,5 @@ def buttons(self,janela):
 
 
 janela=tk.Tk()
-janela.geometry("800x600")
-
+jg=Buttons(janela)
 janela.mainloop()

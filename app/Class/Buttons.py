@@ -1,6 +1,6 @@
 import tkinter as tk
 class Buttons:
-  def buttons(self,janela):
+  def __init__(self,janela):
     self.janela=janela
     self.janela.title("itens")
     self.selecione = tk.Label(self.janela, text="selecione um arquivo")
